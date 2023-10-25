@@ -139,6 +139,18 @@
       <div class="bise-sukkur-landing-page-child3"></div>
       <b class="submit1">Submit</b>
       <div class="bise-sukkur-landing-page-child4"></div>
+      <script>
+      // JavaScript to handle form submission
+      document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+        const name = document.getElementById('name').value;
+        const email = document.getElementById('email').value;
+        
+        // You can process the form data here (e.g., send it to a server or perform other actions)
+        // For this example, we'll just display an alert with the submitted data
+        alert(`Name: ${name}\nEmail: ${email}`);
+      });
+    </script>
       <b class="all-rights-reserverd1">All rights reserverd by @BISESukkur</b>
       <div class="image-3-parent">
         <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
